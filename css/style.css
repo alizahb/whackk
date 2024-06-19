@@ -1,0 +1,86 @@
+body {
+    font-family:'Courier New', Courier, monospace;
+    text-align: center; 
+    background: url(https://filmfork-cdn.s3.amazonaws.com/content/THE%20BABADOOK.jpg); 
+    background-size:cover; 
+}
+
+h1 {
+    color: green; 
+    font-size: 50px; 
+ 
+}
+
+#game-status {
+ color: lightgreen; 
+ margin-top: -20px; 
+ margin-bottom: 10px; 
+ font-size: 17px; 
+   
+
+}
+.game-trackers {
+    display: inline-flex; 
+    gap: 200px; 
+    padding: 8px; 
+    color: white; 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#time {
+color: white; 
+}
+
+#timer {
+
+    color:white; 
+    font-size: 18px;
+}
+
+#score {
+    color:white; 
+    font-size: 18px; 
+}
+.board {
+  display: flex; 
+  flex-wrap: wrap;  
+  margin: 0 auto; 
+  flex-direction: grid; 
+ border: 5px solid; 
+  border-color:white; 
+  align-items: stretch; 
+  justify-content: stretch; 
+  height: 600px; 
+  width: 750px; 
+  margin: auto; 
+
+
+}
+
+
+.sqr {
+
+  display: flex; 
+  flex: 1 0 auto; 
+  height: 129px; 
+  width: 160px;  
+  flex-wrap: wrap;  
+ padding:10px; 
+  color: white; 
+  border: 1px solid;
+  border-color:white; 
+  justify-content:stretch; 
+ 
+
+    
+}
+
+.sqr:before {
+    display: block; 
+    padding-top: 100%; 
+}
+
+.board img {
+    height: 129px; 
+    width: 160px; 
+}
